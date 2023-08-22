@@ -1,3 +1,4 @@
+//Larissa Fernanda dos Santos
 
 #include <iostream>
 using namespace std;
@@ -12,9 +13,12 @@ void buscarElemento();
 //--------------------------
 
 
-const int MAX = 2;;
+const int MAX = 5;
 int lista[MAX]{};
 int nElementos = 0;
+
+// const: variavel constante 
+// Max, maximo de numeros 
 
 
 int main()
@@ -24,8 +28,8 @@ int main()
 
 void menu()
 {
-	int op = 0;
-	while (op != 6) {
+	int op = 0; // op: variável local
+	while (op != 6) { // != diferente 
 		system("cls"); // somente no windows
 		cout << "Menu Lista Linear";
 		cout << endl << endl;
@@ -104,5 +108,8 @@ void inserirElemento()
 // deve ser implementada como resposta ao exercicio
 void buscarElemento()
 {
+	
+
+
 
 }
