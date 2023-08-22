@@ -121,6 +121,7 @@ void buscarElemento()
 	}
 	if (n_encontrado == 0)
 	{
+
 		cout << "Numero nao encontrado\n";
 	}
 }
